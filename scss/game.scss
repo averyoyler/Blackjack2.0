@@ -1,0 +1,67 @@
+
+//
+// BLACKJACK GAME SCSS FILE
+//
+
+
+$trentsGrey: #DADFEA;
+$myMaroon: #800000;
+$quicksand: 'Quicksand', sans-serif;
+
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 30px;
+  font-family: $quicksand;
+  color: grey;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.blackjack {
+  width: 100%;
+  background-color: $trentsGrey;}
+
+img {
+  height: 300px;
+  border-radius: 15px;
+  margin: 20px;
+  box-shadow: 5px 5px 5px 0;
+}
+
+#aces {
+  height: 500px;
+  border-radius: 0;
+  margin: 50px 0 0 0;
+  box-shadow: none;
+}
+
+button {
+  font-size: 24px;
+  background-color: $myMaroon;
+  color: white;
+  padding: 10px 15px;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px grey;
+  margin-bottom: 50px;
+}
+
+button:focus {
+  box-shadow: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
