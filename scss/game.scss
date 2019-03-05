@@ -32,7 +32,7 @@ body {
   background-color: $trentsGrey;}
 
 img {
-  height: 300px;
+  height: 250px;
   border-radius: 15px;
   margin: 20px;
   box-shadow: 5px 5px 5px 0;
@@ -46,15 +46,16 @@ img {
 }
 
 button {
-  font-size: 24px;
+  font-size: 32px;
+  letter-spacing: 2px;
   background-color: $myMaroon;
   color: white;
-  padding: 10px 15px;
+  padding: 10px 50px;
   outline: none;
   border: none;
-  border-radius: 15px;
+  border-radius: 7px;
   box-shadow: 5px 5px 5px grey;
-  margin-bottom: 50px;
+  margin: 0 15px 50px;
 }
 
 button:focus {

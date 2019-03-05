@@ -726,17 +726,17 @@ function showStatus(){
     }
 }
 
+$('#new-game-button').click(() => {
+    $('html, body').animate({
+        scrollTop: $('#text-area').offset().top
+    }, 200);
+});
 
 
 
-
-
-
-
-
-
-let cardDisplay = $('#cardDisplay');
-
-function displayCard(){
-    cardDisplay.html(deck[0].image);
-}
+//
+// let cardDisplay = $('#cardDisplay');
+//
+// function displayCard(){
+//     cardDisplay.html(deck[0].image);
+// }
